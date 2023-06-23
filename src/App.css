@@ -1,0 +1,115 @@
+.body{
+  height:100vh;
+  width:100%;
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  font-family: Poppins;
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 550px){
+  .heading{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+} 
+
+.container{
+  height: 80vh;
+  width: 80%;
+  display:flex;
+  /* background-color: red; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 550px){
+  .container{
+    width: 95%;
+    flex-direction: column;
+  }
+}
+
+.searchSection{
+  height: 100%;
+  width:35%;
+  
+  background:var(--blueGradient);
+  border-radius: 10px 0 0 10px;
+}
+
+@media screen and (max-width: 550px){
+  .searchSection{
+    height: 31%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+
+.SearchBox{
+  display: flex;
+}
+.SearchBox input{
+  margin: 10px 0px 0px 5px;
+  flex:2;
+  width:80%;
+  min-height: 30px;
+  font-family: poppins;
+  font-size: 15px;
+  line-height: 20px;
+  background: linear-gradient(
+  -168.39deg,
+  #ffffff -278.56%,
+  #6d6d6d -78.47%,
+  #11101d 91.61%
+  );
+  border:2px solid;
+  padding:0 1rem;
+  outline:none;
+  color:grey;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.SearchBox button{
+  background: linear-gradient(
+      -168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  color:grey;
+  min-height: 30px;
+  margin-top:10px;
+  margin-right:5px;
+  border:2px solid;
+  border-left:0px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
